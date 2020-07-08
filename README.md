@@ -1,2 +1,2 @@
 # kibana-menu-hide
-Kibana main menu elements hiding based on the permissions of current user
+Kibana plugin for main menu elements hiding based on the permissions of current user
