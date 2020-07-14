@@ -1,9 +1,13 @@
 .homWelcome {
     display:none;
 }
+.euiHeaderLogo {
+    display:none;
+}
 /*#navDrawerMenu > ul:nth-child(4) > li:nth-child(4),#navDrawerMenu > ul:nth-child(4) > li:nth-child(5),#navDrawerMenu > ul:nth-child(4) > li:nth-child(6),#navDrawerMenu > ul:nth-child(4) > li:nth-child(7),#navDrawerMenu > ul:nth-child(4) > li:nth-child(8),#navDrawerMenu > ul:nth-child(4) > li:nth-child(9) {
     display:none;
 }
 a[data-name*="Security"] {
   background: aqua;
 }*/
+
