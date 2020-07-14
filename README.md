@@ -1,5 +1,6 @@
 # kibana-menu-hide
 Kibana plugin for main menu elements hiding based on the permissions of current user
-For now it works only with chrome browser.
-***KNOWN BUGS***
+For now it works only with chrome browser.<br>
+-------------------------------------------------<br>
+***KNOWN BUGS***<br>
 It won't hide apps if user uses tenant with no indeces.
