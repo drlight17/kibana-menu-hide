@@ -1,0 +1,9 @@
+{
+  "name": "KSC",
+  "version": "0.1.1",
+  "description": "A Kibana main menu hide for non-admins",
+  "main": "index.js",
+  "kibana": {
+    "version": "7.7.0"
+  }
+}
