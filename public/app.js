@@ -2,6 +2,9 @@ import $ from 'jquery';
 
 $(document).ready(function($) {
     $('.homWelcome').hide();
+    // 2 methods below to remove href from kibana logo is not working now so commented out
+//    $('a[href*="/app/kibana#/home"]').removeAttr("href");
+//    $('.euiHeaderLogo').removeAttr("href");
     // if shere is no security-configuration menu item on the page - hide some menu elements
 //    if (!$('a[href*="/security-configuration#/"]').attr('href')) {
     if (!$('a[data-name*="Security"]').length) {
