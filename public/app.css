@@ -1,13 +1,8 @@
-.homWelcome {
+/* hide blocks from home page */
+main > div:nth-child(4) > div:nth-child(2) {
     display:none;
 }
-.euiHeaderLogo {
-    display:none;
+/* make cursor to pointer at logout button */
+.euiHeaderSectionItem {
+    cursor: pointer;
 }
-/*#navDrawerMenu > ul:nth-child(4) > li:nth-child(4),#navDrawerMenu > ul:nth-child(4) > li:nth-child(5),#navDrawerMenu > ul:nth-child(4) > li:nth-child(6),#navDrawerMenu > ul:nth-child(4) > li:nth-child(7),#navDrawerMenu > ul:nth-child(4) > li:nth-child(8),#navDrawerMenu > ul:nth-child(4) > li:nth-child(9) {
-    display:none;
-}
-a[data-name*="Security"] {
-  background: aqua;
-}*/
-
