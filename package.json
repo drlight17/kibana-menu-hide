@@ -1,6 +1,6 @@
 {
-  "name": "KSC",
-  "version": "0.1.1",
+  "name": "kibana-menu-hide",
+  "version": "0.1.2",
   "description": "A Kibana main menu hide for non-admins",
   "main": "index.js",
   "kibana": {
