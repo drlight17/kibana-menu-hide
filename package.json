@@ -1,6 +1,6 @@
 {
   "name": "kibana-menu-hide",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "A Kibana main menu hide for non-admins",
   "main": "index.js",
   "kibana": {
