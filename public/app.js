@@ -1,12 +1,21 @@
 import $ from 'jquery';
 
-$(document).ready(function($) {
-    // add timeout hack to hide unnecessaary elements
-    function hideMenuElements () {
-    // fix of icons in dark mode
-        if ($('link[href*=".dark.css"]').attr('href')) {
-            $('.euiImage__img').css("filter","invert(1)");
-        }
+function JS_wait() {
+    if (!$('a[data-name*="Account"]').length)
+    { 
+        window.setTimeout(JS_wait, 50); 
+    }
+    else 
+    { 
+        JS_ready(); 
+    }
+}
+
+function JS_ready() {
+// fix of icons in dark mode
+	if ($('link[href*=".dark.css"]').attr('href')) {
+    	    $('.euiImage__img').css("filter","invert(1)");
+	}
         $('.euiHeaderLogo').removeAttr("href");
     // if shere is no security-configuration menu item on the page - hide some menu elements
         if (!$('a[data-name*="Security"]').length) {
@@ -16,6 +25,6 @@ $(document).ready(function($) {
             $('#navDrawerMenu > ul:nth-child(4) > li:nth-child(7)').hide();
             $('#navDrawerMenu > ul:nth-child(4) > li:nth-child(8)').hide();
         };
-    }
-    setTimeout (hideMenuElements, 300);
-});
+};
+
+$(document).ready(JS_wait); 
