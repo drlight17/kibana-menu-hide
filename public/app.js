@@ -17,5 +17,5 @@ $(document).ready(function($) {
             $('#navDrawerMenu > ul:nth-child(4) > li:nth-child(8)').hide();
         };
     }
-    setTimeout (hideMenuElements, 200);
+    setTimeout (hideMenuElements, 300);
 });
